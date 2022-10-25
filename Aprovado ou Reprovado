@@ -1,0 +1,25 @@
+/******************************************************************************
+
+Gabriel Souza -- Progama para indentificar se o numero é par ou não
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int valor;
+    
+    printf("Insira um valor inteiro:\n");
+    
+    scanf("%d", &valor);
+    
+    printf("\nValor inserido: %d\n\n", valor);
+    
+    if(valor > 6.0)
+    
+    printf("Aprovado \n\n");
+    else
+    printf("Reprovado \n\n");
+    
+    return 0;
+}
