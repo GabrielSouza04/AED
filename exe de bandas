@@ -1,5 +1,6 @@
 /******************************************************************************
-Gabriel Mantovanni de Souza --- Exercicio Banda 
+Gabriel Mantovanni de Souza --- Exercicio Banda - Esse progama faz com que voce escreva o nome da banda 
+o estilo musical , quantos integrantes tem e o rank da banda no seu gosto pessoal e ai ele faz uma lista das bandas.
 *******************************************************************************/
 #include <stdio.h>
 #include <string.h>
