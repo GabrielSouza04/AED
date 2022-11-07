@@ -1,6 +1,7 @@
 /******************************************************************************
 
-Gabriel Souza -- Progama para indentificar se o numero é par ou não
+Gabriel Souza -- Progama para indentificar se o aluno está aprovado ou reprovado
+de acordo com a média que é 6
 
 *******************************************************************************/
 #include <stdio.h>
