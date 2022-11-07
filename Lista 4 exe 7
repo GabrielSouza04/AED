@@ -1,5 +1,6 @@
 /******************************************************************************
-    Gabriel Mantovanni de Souza Structs - Lista 4 - Exercício 7
+    Gabriel Mantovanni de Souza Structs - Lista 4 - Exercício 7 - Esse progama 
+    mostra se o produto está em promoção ou está cadastrado.
 *******************************************************************************/
 #include <stdio.h>
 
