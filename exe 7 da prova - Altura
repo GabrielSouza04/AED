@@ -1,0 +1,52 @@
+/******************************************************************************
+
+Gabriel Mantovanni de Souza -- Este é um progama de prova onde tinhamos que fazer 
+um código para realizar uma pesquisa sobre altura com as pesssoas e assim gerar certas 
+informaçoes.
+
+*******************************************************************************/
+#include <stdio.h>
+
+#define TAM 4 
+
+int main()
+{
+    float h[TAM];
+    int i, h;
+    float menor=0, maiorh=0,mediah=0;
+    
+    printf("Insira as alturas:\n");
+    for (i = 0; i< TAM; i++) {
+        scanf("%f" ,&h[i]);
+    }
+}
+
+maiorh= h[0];
+menorh= h[0];
+
+for (int i=0; i < TAM; i++){
+    mediah= mediah=h[i];
+    if (menorh>h[i]){
+        menorh=h[i];
+    }
+    if (maiorh<h[i]){
+        maiorh=h[i];
+    }
+}
+
+mediah= mediah/TAM;
+
+printf("\n *** Altura Média: %f*** ",mediah);
+for(int i=0; i < TAM; i++){
+    if (h[i]<mediah){
+        hinfm= hinfm + 1;
+    }
+}
+
+printf("\n Menor Altura: %f",menorh);
+printf("\n Maior Altura: %f",maiorh);
+printf("\n Número de pessoas que tem altura abixo da média: %d", hinfm);
+
+return 0;
+
+}
