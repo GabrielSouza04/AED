@@ -1,4 +1,4 @@
-// Gabriel Mantovanni de  Souza
+// Gabriel Mantovanni de  Souza - Esse progama mostra os dados dos alunos , N1 e N2, matricula e tambem calcula a media das notas.
 #include <stdio.h>
 
  float calculamedia( float N1, float N2)
