@@ -1,5 +1,5 @@
 /******************************************************************************
- Gabriel Souza - Progama de troca
+ Gabriel Souza - Progama de troca - esse proagama faz a troca de resulatdos , ex o resulatado A vira pro B e vice - versa .
 
 *******************************************************************************/
 #include <stdio.h>
