@@ -1,0 +1,27 @@
+/******************************************************************************
+
+Gabriel Mantovanni de Souza -- Este é um progama de prova onde tinhamos que criar 
+duas struct uma para Cliente que tinha que ter nome e CPF e outra Conta que tinha 
+que ter número da conta, CPF e saldo
+*******************************************************************************/
+#include <stdio.h>
+
+typedef struct {
+
+char nome[100];
+
+int CPF;
+
+} Cliente;
+
+///////////////////////
+
+typedef struct{
+
+int numeroconta;
+
+int CPF;
+
+double saldo;
+
+} Conta;
