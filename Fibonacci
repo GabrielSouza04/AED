@@ -1,0 +1,28 @@
+/******************************************************************************
+
+Gabriel Souza - esse progama faz fibonacci
+
+*******************************************************************************/
+#include <stdio.h>
+
+int fibo (int n) {
+    int a = 0, b = 1, fib=1;
+    for (int i=3; i <= n; i++){
+        fib = a + b;
+        a = b;
+        b = fib;
+    }
+    return fib;
+}
+
+
+int main () {
+    int a, b, i, n, fib;
+    
+    printf("INSIRA UM NÚMERO MAIOR QUE ZERO:");
+    scanf("%d", &n);
+    
+    printf("O RESULTADO É: = %d", fibo(n));
+    
+    return 0;
+}
